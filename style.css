@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+.box
+{
+    display: inline-flex;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(49, 49, 49);
+    border: 5px solid rgb(23, 23, 23);
+    transition: 2s;
+}
+.fake-box
+{
+    display: inline-flex;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(49, 49, 49);
+    border: 5px solid rgb(23, 23, 23);
+    transition: 2s;
+}
+.box:hover
+{
+    background-color: rgb(179, 179, 179);
+    border: 5px solid rgb(102, 117, 98);
+}
+.fake-box:hover
+{
+    background-color: rgb(179, 179, 179);
+    border: 5px solid rgb(255, 34, 34);
+}
